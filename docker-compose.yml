@@ -27,7 +27,7 @@ services:
       - app
 
   db:
-    image: mariadb:11-10
+    image: mariadb:10.11
     container_name: ujian_db
     restart: unless-stopped
     environment:
