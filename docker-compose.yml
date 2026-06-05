@@ -17,7 +17,7 @@ services:
       - db
   
   web:
-    build: nginx:alpine
+    image: nginx:alpine
     container_name: ujian_web
     restart: unless-stopped
     volumes:
